@@ -1,0 +1,21 @@
+.container {
+  margin: 0 auto;
+  max-width: 1900px;
+}
+  .HomeImage_HeaderMain_container {
+    display: flex;
+    flex-direction: row;
+
+
+      .HomeImage {
+        position: relative;
+        top: 0;
+        left: -30em;
+      }
+
+
+    .Header_Main {
+      position: relative;
+      left: -12em;
+    }
+  }

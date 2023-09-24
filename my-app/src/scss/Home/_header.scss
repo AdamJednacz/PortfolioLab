@@ -1,0 +1,25 @@
+.Header{
+  margin-top: 2em;
+  .Header_item:nth-of-type(1){
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    .btn{
+      padding: 1em;
+      &:hover{
+        border: yellow solid 1px;
+      }
+    }
+  }
+  .Header_item:nth-of-type(2){
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    .btn{
+      padding: 1em;
+      &:hover{
+        border: black solid 1px;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.home_three_columns{
+
+  padding-top: 2em;
+  background:#edc01c;
+  .container{
+    display: flex;
+    justify-content: space-between;
+  .home_three_columns_item{
+    width: 334px;
+    height: 252px;
+    h1{
+      font-size: 90px;
+      text-align: center;
+    }
+    h2{
+      font-size: 18px;
+      text-align: center;
+    }
+
+    p{
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+}
+}
