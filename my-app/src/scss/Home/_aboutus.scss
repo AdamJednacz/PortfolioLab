@@ -1,0 +1,33 @@
+.about_us{
+  display: flex;
+  flex-direction: row;
+  .about_us_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F0F1F1 0% 0% no-repeat padding-box;
+    width:50%;
+    position:relative ;
+    h1{
+      font-size:38px ;
+    }
+    p{
+      font-size: 30px;
+      text-align: center;
+      width: 657px;
+      height: 209px;
+    }
+    .about_us_item{
+      margin: 1em;
+
+    }
+    img:nth-of-type(2){
+        position: relative;
+        left:10em;
+
+    }
+
+  }
+
+}
