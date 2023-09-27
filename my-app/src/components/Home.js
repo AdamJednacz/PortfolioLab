@@ -5,6 +5,8 @@ import HomeImage from "../assets/Home-Hero-Image.jpg"
 import HomeTreeColumns from "./HomeTreeColumns";
 import Simple4Steps from "./Simple4steps";
 import AboutUs from "./AboutUs";
+import Help from "./Help";
+import FooterForm from "./FooterForm";
 
 const Home = () => {
     return (
@@ -22,6 +24,8 @@ const Home = () => {
             <HomeTreeColumns/>
             <Simple4Steps/>
             <AboutUs/>
+            <Help/>
+            <FooterForm/>
         </div>
     );
 };

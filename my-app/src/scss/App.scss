@@ -1,3 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap');
 @import "./settings/_all.scss";
 @import "./Home/_all.scss";
+.home_three_columns{
+  background-image: url("../assets/3 Columns Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
