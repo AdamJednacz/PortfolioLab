@@ -4,6 +4,8 @@ import Icon1 from "../assets/Icon-1.svg"
 import Icon2 from "../assets/Icon-2.svg"
 import Icon3 from "../assets/Icon-3.svg"
 import Icon4 from "../assets/Icon-4.svg"
+import {isLoggedIn} from "../App";
+import {Link} from "react-router-dom";
 
 const Simple4Steps = () => {
     return (
@@ -38,7 +40,19 @@ const Simple4Steps = () => {
                     <p className="_4steps_icons_item">the courier will arrive at a convenient time</p>
                 </div>
             </div>
-            <button className="btn">GIVE YOUR ITEMS</button>
+            {isLoggedIn ? (
+                <>
+
+                    <button className="btn">GIVE YOUR ITEMS</button>
+                </>
+            ) : (
+                <>
+                    <Link to="/Login">
+                        <button className="btn">GIVE YOUR ITEMS</button>
+                    </Link>
+                </>
+            )}
+
         </section>
     );
 };

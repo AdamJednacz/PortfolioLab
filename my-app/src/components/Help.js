@@ -12,7 +12,7 @@ const Help = () => {
 
 
     return (
-        <section className="help">
+        <section className="help" id="foundationSection">
             <div className="top">
             <h1>Who do we help?</h1>
             <img src={Decoration} alt={"decoration"}/>

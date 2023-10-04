@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeTreeColumns = () => {
     return (
-        <section className="home_three_columns">
+        <section className="home_three_columns" id={"aboutSection"}>
             <div className="container">
             <div className="home_three_columns_item">
                 <h1>10</h1>

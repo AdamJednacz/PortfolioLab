@@ -5,7 +5,7 @@ import Facebook from "../assets/Facebook.png"
 import Instagram from "../assets/Instagram.png"
 const FooterForm = () => {
     return (
-        <section className="footer_form">
+        <section className="footer_form" id="contactSection">
             <div className="footer_form_top">
             <img className="background" src={BackgroundContactForm} alt={"BackgroundContactForm"}/>
                 <div className="footer_form_left_side">
