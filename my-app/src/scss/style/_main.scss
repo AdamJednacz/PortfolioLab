@@ -4,14 +4,17 @@
   flex-direction: column;
   margin-top: 13.125em;
   h1 {
-
     font-size: 38px;
     text-align: center;
+    font-family: $font-base;
+    font-weight: bolder;
   }
 
   h2 {
     font-size: 38px;
     text-align: center;
+    font-family: $font-base;
+    font-weight: bolder;
   }
 
   img{
@@ -29,6 +32,8 @@
       margin: 1em;
       border: 0.75px solid #3C3C3C;
       font-size: 36px;
+      font-family: $font-base;
+      font-weight: bolder;
       &:hover{
         color:#ffffff;
         background-color:#000000;

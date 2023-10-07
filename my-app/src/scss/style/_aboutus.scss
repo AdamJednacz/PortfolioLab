@@ -11,12 +11,16 @@
     position:relative ;
     h1{
       font-size:38px ;
+      font-family: $font-base;
+      font-weight: bolder;
     }
     p{
       font-size: 30px;
       text-align: center;
       width: 657px;
       height: 209px;
+      font-family: $font-base;
+      font-weight: bolder;
     }
     .about_us_item{
       margin: 1em;

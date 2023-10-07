@@ -12,6 +12,8 @@
     h1 {
       font-size: 38px;
       margin: 1em;
+      font-family: $font-base;
+      font-weight: bolder;
     }
 
     img {
@@ -38,16 +40,20 @@
 
       h2 {
         font-size: 18px;
+        font-family: $font-base;
+        font-weight: bolder;
       }
 
       .line {
         border: 1px solid #707070;
         width: 70px;
-        height: 0px;
+
       }
 
       p {
         font-size: 1em;
+        font-family: $font-base;
+        font-weight: bolder;
       }
 
       ._4steps_icons_item {
@@ -61,6 +67,8 @@
     margin: 1em;
     border: 0.75px solid #3C3C3C;
     font-size: 36px;
+    font-family: $font-base;
+    font-weight: bolder;
     &:hover{
       color:#ffffff;
       background-color:#000000;

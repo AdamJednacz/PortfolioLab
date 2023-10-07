@@ -5,21 +5,30 @@
   .container{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1em;
   .home_three_columns_item{
     width: 334px;
     height: 252px;
     h1{
       font-size: 90px;
       text-align: center;
+      font-family: $font-base;
+      font-weight: bolder;
     }
     h2{
       font-size: 18px;
       text-align: center;
+      font-family: $font-base;
+      font-weight: bolder;
+      margin-bottom: 1em;
+      margin-top: 1em;
     }
 
     p{
       font-size: 16px;
       text-align: center;
+      font-family:  $font-alt;
+
     }
   }
 }

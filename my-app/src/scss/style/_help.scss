@@ -12,6 +12,8 @@
     font-size: 38px;
     margin-top: 2em;
     margin-bottom: 1em;
+    font-family: $font-base;
+    font-weight: bolder;
   }
 
   img {
@@ -24,7 +26,8 @@
       font-size: 24px;
       padding: 1em;
       margin: 1em;
-
+      font-family: $font-base;
+      font-weight: bolder;
       &:first-of-type {
         border: 1px solid #707070;
       }
@@ -37,6 +40,9 @@
     text-align: center;
     width: 640px;
     height: 94px;
+    font-family: $font-base;
+    font-weight: bolder;
+    margin: 2em 0;
   }
 }
   .examples{
@@ -56,14 +62,18 @@
       .left_side{
         h3{
           font-size: 26px;
+          font-family: $font-alt;
 
         }
         p{
+          font-family: $font-alt;
 
           font-size: 18px;
         }
       }
-      p{
+      p:nth-of-type(3){
+        font-family: $font-base;
+        font-weight: bolder;
         font-size: 18px;
         display: flex;
         align-self: center;

@@ -19,7 +19,7 @@ const FooterForm = () => {
                 </label>
                 <label>
                     Enter your e-mail:
-                    <input type="text" placeholder="abc@xyz.pl"/>
+                    <input type="email" placeholder="abc@xyz.pl"/>
                 </label>
                 </div>
                 <label>
